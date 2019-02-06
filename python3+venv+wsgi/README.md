@@ -45,6 +45,26 @@ sudo chown -R grader:grader venv3/.
 ```
 
 
+### Clone your project
+```
+cd /var/www/catalog
+git clone https://github.com/youraccount/projectrepo
+```
+
+### Create the `.wsgi` file (check content on screenshots)
+```
+touch catalog.wsgi
+```
+
+
+### Install app dependecies
+```
+cd projectFolder
+pip install requirements.txt //assuming that there is a requirements file, otherwise install manually every dependency
+```
+
+	
+
 ### Configure and Enabling New Virtual Host
 1. Configure by typing the following command:
 ```
@@ -80,6 +100,7 @@ sudo a2ensite catalog
 4. Type the following command for restarting the apache:
 ```
 service apache2 reload
+service apache2 restart
 ```
 
 ### Folders and file infos
