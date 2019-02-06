@@ -85,22 +85,22 @@ service apache2 reload
 ### Folders and file infos
 
 #### First/Root folder permissions and owners. This is the folder you have to create first. `cd /var/www && mkdir catalog`
-![First folder](python3+venv+wsgi/images/folder1.PNG)
+![First folder](/images/folder1.PNG)
 
 
 #### Project folder permissions and owners. This is the which contains the `.wsgi` file and the project folder created by cloning your project. `cd catalog && touch catalog.wsgi && git clone https://github.com/yourgit/yourrepo`
-![Project folder](python3+venv+wsgi/images/folder2.PNG)
+![Project folder](/images/folder2.PNG)
 
 
 #### Catalog wsgi file content `nano catalog.wsgi`
-![Catalog wsgi file](python3+venv+wsgi/images/wsgiFile.PNG)
+![Catalog wsgi file](/images/wsgiFile.PNG)
 
 
 #### Project files permissions and owners. This is the project files folder. `cd catalog`
-![Project folder](python3+venv+wsgi/images/folder3.PNG)
+![Project folder](/images/folder3.PNG)
 
 
 #### Apache `.conf` file. This is the file which should be created under `/etc/apache2/sites-available`
-![Project folder](python3+venv+wsgi/images/confFile.PNG)
+![Project folder](/images/confFile.PNG)
 
 
