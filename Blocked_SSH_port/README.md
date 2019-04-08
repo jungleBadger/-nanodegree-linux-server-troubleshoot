@@ -49,11 +49,11 @@ The server cannot be reached through the selected SSH port after changing it on 
 ### Folders and file infos
 
 #### AWS panel configuration
-![First folder](./images/aws.PNG)
+![AWS Panel](./images/aws.png)
 
 
 #### Instance SSH connections working
-![First folder](./images/working.PNG)
+![Working example](./images/working.png)
 
 
 
