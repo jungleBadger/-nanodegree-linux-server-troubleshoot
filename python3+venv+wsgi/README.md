@@ -1,6 +1,9 @@
 # Python3 + venv + wsgi implementation
 
 
+### Issue description
+
+The mod_wsgi engine cannot find python modules / project files after configuration
 
 ### Scripts
 
