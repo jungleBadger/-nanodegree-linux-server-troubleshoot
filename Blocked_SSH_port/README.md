@@ -43,13 +43,7 @@ The server cannot be reached through the selected SSH port after changing it on 
 5. Select `Custom` on application column, `TCP`, and `2200` on the following
 
 6. Reboot the machine
-
-
-
-### Folders and file infos
-
-#### AWS panel configuration
-![AWS Panel](./images/aws.png)
+### Folders and file infos #### AWS panel configuration ![AWS Panel](./images/aws.png)
 
 
 #### Instance SSH connections working
